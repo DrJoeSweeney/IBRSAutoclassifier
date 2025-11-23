@@ -1,0 +1,29 @@
+# IBRS Document Auto-Classifier
+# Python Dependencies
+
+# Web Framework
+functions-framework==3.*
+flask==3.0.*
+
+# Google Cloud Platform
+google-cloud-aiplatform==1.38.*
+google-cloud-storage==2.14.*
+google-cloud-firestore==2.14.*
+google-cloud-tasks==2.15.*
+google-cloud-secret-manager==2.18.*
+
+# Document Processing
+PyPDF2==3.0.*
+pdfplumber==0.10.*
+python-docx==1.1.*
+python-pptx==0.6.*
+Pillow==10.1.*
+pytesseract==0.3.*
+
+# Zoho CRM Integration
+requests==2.31.*
+requests-oauthlib==1.3.*
+
+# Utilities
+python-dateutil==2.8.*
+python-magic-bin==0.4.*  # For MIME type detection on Windows

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(powershell -Command \"Get-ChildItem -Path ''C:\\Users\\jswee\\Documents\\GitHub\\IBRSAutoclassifier'' -Recurse -Depth 3 -File | Select-Object FullName | Sort-Object\")",
+      "Bash(powershell -Command \"Get-ChildItem -Path ''.'' -Recurse -File -Hidden | Select-Object FullName\")",
+      "Bash(powershell -Command \"Get-Item -Path ''.'' | Get-ChildItem -Force\")",
+      "Bash(powershell -Command \"Get-ChildItem -Path ''.'' -Force | Select-Object Name, PSIsContainer\")",
+      "Bash(powershell:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
